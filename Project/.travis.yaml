@@ -18,5 +18,4 @@ before_install:
 
 
 install:
-  - docker-compose -f Monolithic_To_Microservices_Docker_Kebernetes_TravisCI
-/project/c2-microservices-v1/udacity-c2-deployment/docker/docker-compose-build.yaml build build --parallel 
+  - docker-compose -f Project/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
